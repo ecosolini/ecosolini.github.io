@@ -58,6 +58,16 @@
 		<button onclick="multiplicar()">Multiplicar</button>
 		<button onclick="dividir()">Dividir</button>
 		<p class="result">Resultado: <span id="resultado"></span></p>
+		<h2>Enviar un Correo Electrónico</h2>
+		<form action="mailto:freirealexander0214@gmail.com" method="post" enctype="text/plain">
+			<label for="from">De:</label><br>
+			<input type="email" id="from" name="from" placeholder="Ingrese su correo electrónico"><br>
+			<label for="subject">Asunto:</label><br>
+			<input type="text" id="subject" name="subject" placeholder="Ingrese el asunto"><br>
+			<label for="message">Mensaje:</label><br>
+			<textarea id="message" name="message" rows="5" placeholder="Ingrese el mensaje"></textarea><br>
+			<button type="submit">Enviar</button>
+		</form>
 	</div>
 	<script>
 		function sumar() {
