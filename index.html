@@ -1,107 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Calculadora</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-		}
-		.container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			margin-top: 50px;
-		}
-		h1 {
-			margin-bottom: 20px;
-		}
-		input[type="number"] {
-			padding: 10px;
-			margin-bottom: 10px;
-			border-radius: 5px;
-			border: none;
-			box-shadow: 1px 1px 2px grey;
-			width: 200px;
-		}
-		button {
-			padding: 10px;
-			border-radius: 5px;
-			border: none;
-			background-color: #008CBA;
-			color: white;
-			cursor: pointer;
-			box-shadow: 1px 1px 2px grey;
-			margin-bottom: 10px;
-			width: 200px;
-		}
-		button:hover {
-			background-color: #006F8C;
-		}
-		.result {
-			padding: 10px;
-			border-radius: 5px;
-			border: none;
-			box-shadow: 1px 1px 2px grey;
-			width: 200px;
-			text-align: center;
-			font-weight: bold;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
 </head>
 <body>
-	<div class="container">
-		<h1>Calculadora</h1>
-		<input type="number" id="num1" placeholder="Ingrese el primer número">
-		<input type="number" id="num2" placeholder="Ingrese el segundo número">
-		<button onclick="sumar()">Sumar</button>
-		<button onclick="restar()">Restar</button>
-		<button onclick="multiplicar()">Multiplicar</button>
-		<button onclick="dividir()">Dividir</button>
-		<p class="result">Resultado: <span id="resultado"></span></p>
-		<h2>Enviar un Correo Electrónico</h2>
-		<form action="mailto:freirealexander0214@gmail.com" method="post" enctype="text/plain">
-			<label for="from">De:</label><br>
-			<input type="email" id="from" name="from" placeholder="Ingrese su correo electrónico"><br>
-			<label for="subject">Asunto:</label><br>
-			<input type="text" id="subject" name="subject" placeholder="Ingrese el asunto"><br>
-			<label for="message">Mensaje:</label><br>
-			<textarea id="message" name="message" rows="5" placeholder="Ingrese el mensaje"></textarea><br>
-			<button type="submit">Enviar</button>
-		</form>
-	</div>
-	<script>
-		function sumar() {
-			var num1 = document.getElementById("num1").value;
-			var num2 = document.getElementById("num2").value;
-			var resultado = parseInt(num1) + parseInt(num2);
-			document.getElementById("resultado").innerHTML = resultado;
-		}
+    <div class="page">
+        <!--- Main conten --->
+        <section class="container">
+            <nav class="navbar">
+                <div class="navbar__content">
+                    <img src="/gif/Logo_Gif.gif" alt="">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Blogs</a></li>
+                    <li><a href="">News & Announcements</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Career</a></li>
+                </ul>
+                </div>
+            </nav>
 
-		function restar() {
-			var num1 = document.getElementById("num1").value;
-			var num2 = document.getElementById("num2").value;
-			var resultado = parseInt(num1) - parseInt(num2);
-			document.getElementById("resultado").innerHTML = resultado;
-		}
+            <section class="main-content">
+                <h1>Smart Sourcing Latam</h1>
+                <p>Seamless solution</p>
+                <p>We are a distinguished Colombian 
+                    organization that is poised to transform the way 
+                    you approach business processes. With over 30 years 
+                    of unwavering success and experience in our corner, 
+                    we have honed our expertise to perfection, 
+                    making us your ideal partner for 
+                </p>
+            </section>
 
-		function multiplicar() {
-			var num1 = document.getElementById("num1").value;
-			var num2 = document.getElementById("num2").value;
-			var resultado = parseInt(num1) * parseInt(num2);
-			document.getElementById("resultado").innerHTML = resultado;
-		}
+            <section class="side-content">
+                <p>Seamless</p>
+                <img src="" alt="">
+                <div>
+                    <p>Solution</p>
+                </div>
+            </section>
 
-		function dividir() {
-			var num1 = document.getElementById("num1").value;
-			var num2 = document.getElementById("num2").value;
-			if (num2 == 0) {
-				alert("No se puede dividir por cero");
-				return;
-			}
-			var resultado = parseInt(num1) / parseInt(num2);
-			document.getElementById("resultado").innerHTML = resultado;
-		}
-	</script>
+            <section class="footer">
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+            </section>
+            </section>
+            <!--- Loader --->
+            <section class="loader">
+                <img src="/gif/Logo_Gif.gif" alt="logo">
+            </section>
+            <!--- Modal --->
+            <section></section>
+    </div>
+    
+    
 </body>
 </html>
-
