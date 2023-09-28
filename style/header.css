@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: fit-content;
+}
+body { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 0px;
+    padding: 0px;
+    height: fit-content;
+    width: 100vw;
+    background: linear-gradient(180deg, navy, azure);
+    font-family: 'Urbanist';
+}
+
+div.brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+
+}
+
+div.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: row;
+    color: white;
+    padding: 20px;
+    height: fit-content;
+}
