@@ -1,0 +1,16 @@
+@media (width <= 600px) {
+    ul.header_menu {
+        display: none;
+    }
+    .menu_icon {
+        display: block;
+        text-align: right;
+        margin-right: 50px;
+    }
+    header > object {
+        width: 100%;
+    }
+    div.part1{
+        margin: 10px;
+    }
+}
