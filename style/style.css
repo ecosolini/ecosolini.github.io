@@ -59,7 +59,7 @@ div.part1{
     border-radius: 10px;
 }
 
-main > section > div.temporal > img {
+img.temporal_img {
     width: 128px;
     height: 128px;
     filter: brightness(1.1);
@@ -84,13 +84,13 @@ footer > div {
     margin: 20px;
 }
 
-footer > div > a {
+a.references {
     color: lightcyan;
     font-size: smaller;
 }
 
 
-div.brand > figure > img {
+img.brand_logo {
     height: 64px;
     width: 64px;
     object-fit: contain;
@@ -116,7 +116,7 @@ main > div.brand{
     height: fit-content;
 }
 
-main > div.brand > h1 {
+h1.title {
     font-size: 64px;
     color: #011F4B;
 }
