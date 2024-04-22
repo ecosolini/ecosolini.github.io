@@ -25,8 +25,8 @@
 					Pagina de Desarrollo
 				</h3>
 				<br>
-				<a href="./about">about link</a>
-				<a href="./sobre.html">about link</a>
+				<a href="/about">about link</a>
+				<a href="/sobre">about link</a>
 				<p style="text-align: left;"><strong>Pero te contamos un poco sobre Ecosolini</strong></p>
 				<br>
 				<p>
